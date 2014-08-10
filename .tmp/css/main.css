@@ -1,0 +1,1391 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/extends\/_button\.scss}line{font-family:\000031}}
+button,
+input[type="submit"] {
+  -webkit-font-smoothing: antialiased;
+  background-color: #477dca;
+  border-radius: 0.1875em;
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1;
+  padding: .75em 1em;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/extends\/_button\.scss}line{font-family:\0000313}}
+  button:hover,
+  input[type="submit"]:hover {
+    background-color: #2c5999;
+    color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\000031}}
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+  color: #333333;
+  font-family: "Source Sans Pro";
+  font-size: 1em;
+  line-height: 1.5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000310}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro";
+  line-height: 1.25em;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000318}}
+h1 {
+  font-size: 2.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000322}}
+h2 {
+  font-size: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000326}}
+h3 {
+  font-size: 1.75em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000330}}
+h4 {
+  font-size: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000334}}
+h5 {
+  font-size: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000338}}
+h6 {
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000342}}
+p {
+  margin: 0 0 0.75em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000346}}
+a {
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  color: #477dca;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000351}}
+  a:hover {
+    color: #2c5999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000355}}
+  a:active, a:focus {
+    color: #2c5999;
+    outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000361}}
+hr {
+  border-bottom: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000369}}
+img {
+  margin: 0;
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000374}}
+blockquote {
+  border-left: 2px solid #dddddd;
+  color: #595959;
+  margin: 1.5em 0;
+  padding-left: 0.75em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000381}}
+cite {
+  color: #737373;
+  font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_typography\.scss}line{font-family:\0000385}}
+  cite:before {
+    content: '\2014 \00A0'; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\000031}}
+fieldset {
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  margin: 0 0 0.75em 0;
+  padding: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\000038}}
+input,
+label,
+select {
+  display: block;
+  font-family: "Source Sans Pro";
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000316}}
+label {
+  font-weight: bold;
+  margin-bottom: 0.375em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000320}}
+  label.required:after {
+    content: "*"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000324}}
+  label abbr {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000329}}
+textarea,
+input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"],
+select[multiple=multiple] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border-color;
+  transition: border-color;
+  background-color: white;
+  border-radius: 0.1875em;
+  border: 1px solid #dddddd;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: "Source Sans Pro";
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em 0.5em;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000344}}
+  textarea:hover,
+  input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
+  select[multiple=multiple]:hover {
+    border-color: #c4c4c4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000348}}
+  textarea:focus,
+  input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
+  select[multiple=multiple]:focus {
+    border-color: #477dca;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000355}}
+textarea {
+  resize: vertical; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000359}}
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000363}}
+input[type="checkbox"], input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000368}}
+input[type="file"] {
+  margin-bottom: 0.75em;
+  padding-bottom: 0.5em;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_forms\.scss}line{font-family:\0000374}}
+select {
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_tables\.scss}line{font-family:\000031}}
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_tables\.scss}line{font-family:\000038}}
+th {
+  border-bottom: 1px solid #b7b7b7;
+  font-weight: bold;
+  padding: 0.75em 0;
+  text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_tables\.scss}line{font-family:\0000315}}
+td {
+  border-bottom: 1px solid #dddddd;
+  padding: 0.75em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_tables\.scss}line{font-family:\0000320}}
+tr, td, th {
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_lists\.scss}line{font-family:\000031}}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_lists\.scss}line{font-family:\0000319}}
+dl {
+  margin-bottom: 0.75em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_lists\.scss}line{font-family:\0000322}}
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_lists\.scss}line{font-family:\0000327}}
+  dl dd {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/base\/_buttons\.scss}line{font-family:\000031}}
+button,
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_grid\.scss}line{font-family:\000032}}
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\0000313}}
+html,
+button,
+input,
+select,
+textarea {
+  color: #222; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\0000321}}
+html {
+  font-size: 1em;
+  line-height: 1.4; }
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\0000332}}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\0000337}}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * A better looking default horizontal rule
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\0000346}}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\0000360}}
+audio,
+canvas,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\0000372}}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\0000382}}
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\0000390}}
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003102}}
+nav {
+  padding: 20px;
+  height: 80px; }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003128}}
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003137}}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003153}}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003167}}
+.invisible {
+  visibility: hidden; }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003183}}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003189}}
+.clearfix:after {
+  clear: both; }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */ }
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */ }
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003216}}
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003223}}
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003228}}
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003232}}
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003240}}
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003245}}
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003251}}
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003255}}
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003260}}
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003268}}
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_hi\.scss}line{font-family:\00003275}}
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+@-webkit-keyframes left-right {
+  /* line 3, ../../app/_scss/hi/_slippry.scss */
+  0% {
+    -webkit-transform: translateY(-20%) translateX(-10%);
+    transform: translateY(-20%) translateX(-10%); }
+
+  /* line 11, ../../app/_scss/hi/_slippry.scss */
+  100% {
+    -webkit-transform: translateY(0%) translateX(10%);
+    transform: translateY(0%) translateX(10%); } }
+@-ms-keyframes left-right {
+  /* line 39, ../../app/_scss/hi/_slippry.scss */
+  0% {
+    -webkit-transform: translateY(-20%) translateX(-10%);
+    transform: translateY(-20%) translateX(-10%); }
+
+  /* line 47, ../../app/_scss/hi/_slippry.scss */
+  100% {
+    -webkit-transform: translateY(0%) translateX(10%);
+    transform: translateY(0%) translateX(10%); } }
+@keyframes left-right {
+  /* line 57, ../../app/_scss/hi/_slippry.scss */
+  0% {
+    -webkit-transform: translateY(-20%) translateX(-10%);
+    transform: translateY(-20%) translateX(-10%); }
+
+  /* line 65, ../../app/_scss/hi/_slippry.scss */
+  100% {
+    -webkit-transform: translateY(0%) translateX(10%);
+    transform: translateY(0%) translateX(10%); } }
+@-webkit-keyframes right-left {
+  /* line 75, ../../app/_scss/hi/_slippry.scss */
+  0% {
+    -webkit-transform: translateY(0%) translateX(10%);
+    transform: translateY(0%) translateX(10%); }
+
+  /* line 83, ../../app/_scss/hi/_slippry.scss */
+  100% {
+    -webkit-transform: translateY(-20%) translateX(-10%);
+    transform: translateY(-20%) translateX(-10%); } }
+@-ms-keyframes right-left {
+  /* line 111, ../../app/_scss/hi/_slippry.scss */
+  0% {
+    -webkit-transform: translateY(0%) translateX(10%);
+    transform: translateY(0%) translateX(10%); }
+
+  /* line 119, ../../app/_scss/hi/_slippry.scss */
+  100% {
+    -webkit-transform: translateY(-20%) translateX(-10%);
+    transform: translateY(-20%) translateX(-10%); } }
+@keyframes right-left {
+  /* line 129, ../../app/_scss/hi/_slippry.scss */
+  0% {
+    -webkit-transform: translateY(0%) translateX(10%);
+    transform: translateY(0%) translateX(10%); }
+
+  /* line 137, ../../app/_scss/hi/_slippry.scss */
+  100% {
+    -webkit-transform: translateY(-20%) translateX(-10%);
+    transform: translateY(-20%) translateX(-10%); } }
+/* added to the original element calling slippry */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003147}}
+.sy-box.sy-loading {
+  background: url(/img/sy-loader.gif) 50% 50% no-repeat;
+  background-size: 32px;
+  min-height: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003155}}
+.sy-box.sy-loading .sy-slides-wrap, .sy-box.sy-loading .sy-pager {
+  visibility: hidden; }
+
+/* element that wraps the slides */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003160}}
+.sy-slides-wrap {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003165}}
+.sy-slides-wrap:hover .sy-controls {
+  display: block; }
+
+/* element that crops the visible area to the slides */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003170}}
+.sy-slides-crop {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden; }
+
+/* list containing the slides */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003178}}
+.sy-list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003186}}
+.sy-list.horizontal {
+  -webkit-transition: left ease;
+  transition: left ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003192}}
+.sy-list.vertical {
+  -webkit-transition: top ease;
+  transition: top ease; }
+
+/* single slide */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003200}}
+.sy-slide {
+  position: absolute;
+  width: 100%;
+  z-index: 2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003205}}
+.sy-slide.kenburns {
+  width: 140%;
+  left: -20%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003209}}
+.sy-slide.kenburns.useCSS {
+  -webkit-transition-property: opacity;
+  transition-property: opacity; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003215}}
+.sy-slide.kenburns.useCSS.sy-ken:nth-child(1n) {
+  -webkit-animation-name: left-right;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: left-right;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-name: left-right;
+  -o-animation-fill-mode: forwards;
+  -webkit-animation-name: left-right;
+  animation-name: left-right;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003225}}
+.sy-slide.kenburns.useCSS.sy-ken:nth-child(2n) {
+  -webkit-animation-name: right-left;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: right-left;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-name: right-left;
+  -o-animation-fill-mode: forwards;
+  -webkit-animation-name: right-left;
+  animation-name: right-left;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003235}}
+.sy-slide.sy-active {
+  z-index: 3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003238}}
+.sy-slide > a {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003244}}
+.sy-slide > a > img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  border: 0; }
+
+/* next/ prev buttons, with arrows and clickable area a lot larger than the visible buttons */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003253}}
+.sy-controls {
+  display: none;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 0;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003262}}
+.sy-controls li {
+  position: absolute;
+  width: 10%;
+  min-width: 4.2em;
+  height: 100%;
+  z-index: 33; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003269}}
+.sy-controls li.sy-prev {
+  left: 0;
+  top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003273}}
+.sy-controls li.sy-prev a:after {
+  background-position: -5% 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003276}}
+.sy-controls li.sy-next {
+  right: 0;
+  top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003280}}
+.sy-controls li.sy-next a:after {
+  background-position: 105% 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003283}}
+.sy-controls li a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-indent: -9999px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003290}}
+.sy-controls li a:link, .sy-controls li a:visited {
+  opacity: 0.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003293}}
+.sy-controls li a:hover, .sy-controls li a:focus {
+  opacity: 0.8;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003297}}
+.sy-controls li a:after {
+  content: "";
+  background-image: url(/img/arrows.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-indent: 0;
+  line-height: 2.8em;
+  color: #111;
+  font-weight: 800;
+  position: absolute;
+  background-color: #fff;
+  width: 2.8em;
+  height: 2.8em;
+  left: 50%;
+  top: 50%;
+  margin-top: -1.4em;
+  margin-left: -1.4em;
+  -o-border-radius: 50%;
+  border-radius: 50%; }
+
+@media only screen and (max-device-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003325}}
+  .sy-controls {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003328}}
+  .sy-controls li {
+    min-width: 2.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003331}}
+  .sy-controls li a:after {
+    width: 1.4em;
+    height: 1.4em;
+    margin-top: -0.7em;
+    margin-left: -0.7em; } }
+/* captions, styled fo the overlay variant */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003340}}
+.sy-caption-wrap {
+  position: absolute;
+  bottom: 2em;
+  z-index: 12;
+  left: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003346}}
+.sy-caption-wrap .sy-caption {
+  position: relative;
+  left: -50%;
+  background-color: rgba(0, 0, 0, 0.54);
+  color: #fff;
+  padding: 0.4em 1em;
+  -o-border-radius: 1.2em;
+  border-radius: 1.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003358}}
+.sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {
+  color: #e24b70;
+  font-weight: 600;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003363}}
+.sy-caption-wrap .sy-caption a:hover, .sy-caption-wrap .sy-caption a:focus {
+  text-decoration: underline; }
+
+@media only screen and (max-device-width: 600px), screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003367}}
+  .sy-caption-wrap {
+    left: 0;
+    bottom: 0.4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003371}}
+  .sy-caption-wrap .sy-caption {
+    left: 0;
+    padding: 0.2em 0.4em;
+    font-size: 0.92em;
+    -o-border-radius: 0;
+    border-radius: 0; } }
+/* pager bubbles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003384}}
+.sy-pager {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  width: 100%;
+  margin: 1em 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  position: relative;
+  top: -45px;
+  z-index: 100; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003397}}
+.sy-pager li {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 1em 0 0;
+  -o-border-radius: 50%;
+  border-radius: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003408}}
+.sy-pager li.sy-active a {
+  background-color: #e24b70; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003411}}
+.sy-pager li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #cccccc;
+  text-indent: -9999px;
+  background-size: 2em;
+  -o-border-radius: 50%;
+  border-radius: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003427}}
+.sy-pager li a:link, .sy-pager li a:visited {
+  opacity: 1.0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003430}}
+.sy-pager li a:hover, .sy-pager li a:focus {
+  opacity: 0.6; }
+
+/* element to "keep/ fill" the space of the content, gets intrinsic height via js */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003435}}
+.sy-filler {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_slippry\.scss}line{font-family:\00003438}}
+.sy-filler.ready {
+  -webkit-transition: padding 600ms ease;
+  transition: padding 600ms ease; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\000031}}
+h1, h2, h3, h4 {
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\000033}}
+body {
+  color: #5e5c5c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\000035}}
+.hero {
+  background: url("https: //raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(10deg, #bfbfbf, #bfbfbf), no-repeat #bfbfbf scroll;
+  background: url("https: //raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(80deg, #bfbfbf, #bfbfbf), no-repeat #bfbfbf scroll;
+  background: url("https: //raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #bfbfbf, #bfbfbf), no-repeat #bfbfbf scroll;
+  background: url("/img/sunset.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 10em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\0000321}}
+  .hero .hero-logo img {
+    height: 3em;
+    margin-bottom: 2.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\0000326}}
+  .hero .hero-inner {
+    padding: 3em 4em 0;
+    margin: auto;
+    text-align: center;
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000315}}
+    .hero .hero-inner:after {
+      content: "";
+      display: table;
+      clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\0000334}}
+    .hero .hero-inner button {
+      border: 3px solid white;
+      background: none;
+      font-size: 50px;
+      outline: none;
+      text-shadow: none;
+      padding: 10px;
+      text-transform: uppercase;
+      color: white;
+      padding: .5em 1em;
+      font-weight: 700;
+      margin-top: 5em;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\0000349}}
+      .hero .hero-inner button:hover {
+        background: rgba(235, 235, 235, 0.8);
+        color: #5e5c5c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\0000354}}
+      .hero .hero-inner button img {
+        width: 180px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\0000359}}
+    .hero .hero-inner .hero-copy {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\0000364}}
+      .hero .hero-inner .hero-copy h1 {
+        font-size: 2em;
+        margin-bottom: 3em;
+        text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_general\.scss}line{font-family:\0000374}}
+      .hero .hero-inner .hero-copy p {
+        margin: auto;
+        margin-bottom: 3em;
+        font-weight: 200;
+        line-height: 1.4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000315}}
+.device-background {
+  background: -webkit-linear-gradient(15deg, #332056, #69986d), no-repeat #69986d scroll;
+  background: -webkit-linear-gradient(75deg, #332056, #69986d), no-repeat #69986d scroll;
+  background: linear-gradient(15deg, #332056, #69986d), no-repeat #69986d scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000322}}
+  .device-background button {
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 white;
+    color: #333333;
+    display: inline-block;
+    font-size: inherit;
+    font-weight: bold;
+    background-color: white;
+    background-image: -webkit-linear-gradient(white, #e3e3e3);
+    background-image: linear-gradient(white, #e3e3e3);
+    padding: 7px 18px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 white;
+    background-clip: padding-box;
+    border: 1px solid #dfd8d8;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 white;
+    color: #333333;
+    display: inline-block;
+    font-size: inherit;
+    font-weight: bold;
+    background-color: white;
+    background-image: -webkit-linear-gradient(white, #e5e0e0);
+    background-image: linear-gradient(white, #e5e0e0);
+    padding: 7px 18px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 white;
+    background-clip: padding-box;
+    font-size: 1em;
+    outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/bourbon\/addons\/_button\.scss}line{font-family:\00003131}}
+    .device-background button:hover:not(:disabled) {
+      box-shadow: inset 0 1px 0 0 white;
+      cursor: pointer;
+      background-color: #f2f2f2;
+      background-image: -webkit-linear-gradient(#f2f2f2, #dbdbdb);
+      background-image: linear-gradient(#f2f2f2, #dbdbdb); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/bourbon\/addons\/_button\.scss}line{font-family:\00003147}}
+    .device-background button:active:not(:disabled), .device-background button:focus:not(:disabled) {
+      border: 1px solid #dbdbdb;
+      box-shadow: inset 0 0 8px 4px #d4d4d4, inset 0 0 8px 4px #d4d4d4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/bourbon\/addons\/_button\.scss}line{font-family:\00003131}}
+    .device-background button:hover:not(:disabled) {
+      box-shadow: inset 0 1px 0 0 white;
+      cursor: pointer;
+      background-color: #f2f2f2;
+      background-image: -webkit-linear-gradient(#f2f2f2, #ded8d8);
+      background-image: linear-gradient(#f2f2f2, #ded8d8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/bourbon\/addons\/_button\.scss}line{font-family:\00003147}}
+    .device-background button:active:not(:disabled), .device-background button:focus:not(:disabled) {
+      border: 1px solid #dfd8d8;
+      box-shadow: inset 0 0 8px 4px #d7d1d1, inset 0 0 8px 4px #d7d1d1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/bourbon\/addons\/_button\.scss}line{font-family:\0000351}}
+    .device-background button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000329}}
+.device-text {
+  color: white;
+  padding: 2em; }
+  @media screen and (min-width: 53.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000329}}
+    .device-text {
+      max-width: 50%;
+      padding: 4em;
+      float: left; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000339}}
+  .device-text h4 {
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000345}}
+  .device-text p {
+    font-family: "Source Sans Pro";
+    margin-bottom: 1.5em;
+    font-size: 1.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000352}}
+.device {
+  display: none;
+  position: relative; }
+  @media screen and (min-width: 53.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000352}}
+    .device {
+      -webkit-transform: perspective(1000px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-15deg) rotateZ(0deg);
+      transform: perspective(1000px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-15deg) rotateZ(0deg);
+      display: block;
+      float: right;
+      margin-bottom: -12em;
+      margin-top: -1em;
+      margin-right: 12em;
+      padding: 5em 0;
+      width: 30.8em;
+      border-radius: 2em;
+      z-index: 99999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000382}}
+      .device .screen {
+        height: 25em;
+        width: 30em;
+        background-image: url(/img/eagle.jpg);
+        background-size: cover;
+        margin: auto;
+        border-radius: .2em; } }
+  @media screen and (min-width: 53.75em) and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_display\.scss}line{font-family:\0000352}}
+    .device {
+      margin-right: 5em; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\000031}}
+body {
+  background: #FCFCFC;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\000037}}
+nav {
+  width: 100%;
+  height: 60px;
+  padding: 20px 0 30px 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000312}}
+  nav h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000319}}
+  nav img {
+    width: 160px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000324}}
+section {
+  text-align: center;
+  padding: 0 2em;
+  margin: 8em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000329}}
+  section.main {
+    margin: 8em auto;
+    padding: 2em;
+    width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000335}}
+  section.display {
+    padding: 0;
+    margin: 10em 0 8em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000339}}
+  section.product {
+    background: #50556C;
+    color: #fff;
+    padding: 6em 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000344}}
+  section.grid {
+    padding: 0 8em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000351}}
+h2 {
+  margin-bottom: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000355}}
+.btn {
+  border: 3px solid #333333;
+  background: none;
+  outline: none;
+  padding: 10px;
+  padding: 2em 3.5em 2.5em;
+  font-weight: 700;
+  margin-top: 5em;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000366}}
+  .btn:hover {
+    background: rgba(235, 235, 235, 0.8); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_main\.scss}line{font-family:\0000372}}
+.kickstarter h2 {
+  margin-bottom: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000315}}
+.grid-items:after {
+  content: "";
+  display: table;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000324}}
+.grid-items .grid-item {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  height: 18em;
+  background: #6b83a6;
+  width: 100%;
+  overflow: hidden;
+  float: left;
+  padding: 2em;
+  border-top: 0;
+  border-bottom: 9px solid white;
+  border-left: 4.5px solid white;
+  border-right: 4.5px solid white;
+  text-align: center;
+  cursor: pointer; }
+  @media screen and (min-width: 53.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000324}}
+    .grid-items .grid-item {
+      width: 33.33333%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000348}}
+  .grid-items .grid-item:nth-child(1):hover {
+    background-color: #536a8b;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000348}}
+  .grid-items .grid-item:nth-child(2):hover {
+    background-color: #29637e;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000348}}
+  .grid-items .grid-item:nth-child(3):hover {
+    background-color: #44a6a6;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000348}}
+  .grid-items .grid-item:nth-child(4):hover {
+    background-color: #77b57a;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000348}}
+  .grid-items .grid-item:nth-child(5):hover {
+    background-color: #909175;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000348}}
+  .grid-items .grid-item:nth-child(6):hover {
+    background-color: #a7bb75;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000348}}
+  .grid-items .grid-item:nth-child(7):hover {
+    background-color: #7c8588;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000358}}
+.grid-items .grid-item img {
+  display: block;
+  height: 3em;
+  margin: auto;
+  margin-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000365}}
+.grid-items .grid-item h1 {
+  color: white;
+  font-size: 1.6em;
+  margin-bottom: .4em;
+  font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000372}}
+.grid-items .grid-item p {
+  margin: auto;
+  color: rgba(255, 255, 255, 0.7); }
+  @media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000372}}
+    .grid-items .grid-item p {
+      max-width: 70%; } }
+@media screen and (min-width: 53.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000380}}
+  .grid-items .grid-item-big {
+    width: 66.66667%; } }
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000384}}
+  .grid-items .grid-item-big p {
+    max-width: 60%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000391}}
+.grid-items .grid-item-image {
+  background: url(/img/cupcake.jpeg);
+  background-color: #6b83a6;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\0000399}}
+  .grid-items .grid-item-image:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_griditem\.scss}line{font-family:\00003109}}
+  .grid-items .grid-item-image:hover:after {
+    background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\000031}}
+.bullets {
+  overflow: auto;
+  margin-bottom: 1.5em; }
+  @media screen and (min-width: 53.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\000038}}
+    .bullets .two-col-bullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_span-columns\.scss}line{font-family:\0000338}}
+      .bullets .two-col-bullet:last-child {
+        margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_omega\.scss}line{font-family:\0000352}}
+      .bullets .two-col-bullet:nth-child(2n) {
+        margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_omega\.scss}line{font-family:\0000357}}
+      .bullets .two-col-bullet:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (min-width: 53.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\0000315}}
+    .bullets .three-col-bullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_span-columns\.scss}line{font-family:\0000338}}
+      .bullets .three-col-bullet:last-child {
+        margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_omega\.scss}line{font-family:\0000352}}
+      .bullets .three-col-bullet:nth-child(3n) {
+        margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_omega\.scss}line{font-family:\0000357}}
+      .bullets .three-col-bullet:nth-child(3n+1) {
+        clear: left; } }
+  @media screen and (min-width: 53.75em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\0000323}}
+    .bullets .four-col-bullet {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_span-columns\.scss}line{font-family:\0000338}}
+      .bullets .four-col-bullet:last-child {
+        margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_omega\.scss}line{font-family:\0000352}}
+      .bullets .four-col-bullet:nth-child(4n) {
+        margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_omega\.scss}line{font-family:\0000357}}
+      .bullets .four-col-bullet:nth-child(4n+1) {
+        clear: left; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\0000330}}
+  .bullets .bullet-icon {
+    background: #477dca;
+    padding: 1em;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\0000339}}
+  .bullets .bullet-icon-1 {
+    background: #477dca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\0000343}}
+  .bullets .bullet-icon-2 {
+    background: #47caaa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\0000347}}
+  .bullets .bullet-icon-3 {
+    background: #a9ca47; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\0000356}}
+  .bullets h2 {
+    font-size: 1.6em;
+    padding-top: 0.57143em;
+    margin-bottom: 0.66667em;
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_bullets\.scss}line{font-family:\0000364}}
+  .bullets p {
+    font-size: 1.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\000031}}
+.footer {
+  background: #824f4c;
+  padding: 3em 1.618em;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000311}}
+  .footer .footer-logo {
+    text-align: center;
+    margin-bottom: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000315}}
+    .footer .footer-logo img {
+      height: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000320}}
+  .footer .footer-links {
+    margin-bottom: 1.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000315}}
+    .footer .footer-links:after {
+      content: "";
+      display: table;
+      clear: both; }
+    @media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000320}}
+      .footer .footer-links {
+        margin-left: 25.58941%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000329}}
+  .footer ul {
+    margin-bottom: 3em; }
+    @media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000329}}
+      .footer ul {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_span-columns\.scss}line{font-family:\0000338}}
+        .footer ul:last-child {
+          margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_omega\.scss}line{font-family:\0000352}}
+        .footer ul:nth-child(3n) {
+          margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/neat\/grid\/_omega\.scss}line{font-family:\0000357}}
+        .footer ul:nth-child(3n+1) {
+          clear: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000315}}
+        .footer ul:after {
+          content: "";
+          display: table;
+          clear: both; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000339}}
+  .footer li {
+    text-align: center; }
+    @media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000339}}
+      .footer li {
+        text-align: left; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000347}}
+  .footer li a {
+    color: rgba(255, 255, 255, 0.4); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000350}}
+    .footer li a:hover {
+      color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000355}}
+  .footer li h3 {
+    color: white;
+    font-size: 1em;
+    font-weight: 800;
+    margin-bottom: .4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000362}}
+  .footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 auto 1.5em;
+    width: 12em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/MRL\/picpic\/app\/_scss\/hi\/_footer\.scss}line{font-family:\0000368}}
+  .footer p {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: .9em;
+    line-height: 1.5em;
+    margin: auto;
+    max-width: 35em;
+    text-align: center; }

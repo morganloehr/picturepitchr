@@ -1,0 +1,95 @@
+$device-padding-vertical: 5em;
+$device-padding-horizontal: .4em;
+$device-screen-width: 30em;
+$device-screen-height: 25em;
+$device-background: darken(gray, 40);
+$device-backside-background: darken($device-background, 10);
+$device-text-color: white;
+
+$device-background-top: #69986D; 
+$device-background-bottom: #332056;
+$gradient-angle: 15deg;
+$device-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
+$device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg';
+
+.device-background {
+  @include background( linear-gradient($gradient-angle, $device-background-bottom, $device-background-top), no-repeat $device-background-top scroll);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20em;
+
+  button {
+    @include button(simple, $base-background-color);
+    font-size: $base-font-size;
+    outline: none;
+  }
+}
+
+.device-text {
+  color: $device-text-color;
+  padding: 2em;
+
+  @include media($large-screen) {
+    max-width: 50%;
+    padding: 4em;
+    float: left;
+  }
+
+  h4 {
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid transparentize($device-text-color, .7);
+  }
+
+  p {
+    font-family: $sans-serif;
+    margin-bottom: 1.5em;
+    font-size:1.1em;
+  }
+}
+
+.device {
+  display: none;
+  position: relative;
+
+  @include media($large-screen) {
+    @include transform(
+      perspective(1000px) 
+      translateX(0px) 
+      translateY(-100px) 
+      translateZ(50px) 
+      rotateX(0deg) 
+      rotateY(-15deg) 
+      rotateZ(-0deg));
+    display: block;
+    float: right;
+    margin-bottom: -12em;
+    margin-top:-1em;
+    margin-right: 12em;
+    padding: $device-padding-vertical 0;
+    width: $device-screen-width + (2 * $device-padding-horizontal);
+    border-radius: 2em;
+    // background: $device-background;
+    // box-shadow: 
+    //   1px 0px lighten($device-backside-background, 20), 
+    //   4px 0px lighten($device-backside-background, 2),
+    //   7px 0px $device-backside-background,
+    //   10px 0px $device-backside-background,
+    //   13px 0px $device-backside-background;
+      z-index: 99999;
+
+    .screen {
+      @include size($device-screen-width $device-screen-height);
+      background-image: url(/img/eagle.jpg);
+      background-size: cover;
+      // box-shadow: inset 0 1px 8px transparentize(black, .5);
+      margin: auto;
+      border-radius: .2em;
+    }
+
+    @include media($medium-screen) {
+      margin-right:5em;
+    }
+  }
+}
