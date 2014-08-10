@@ -19,6 +19,10 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
   width: 100%;
   height: 20em;
 
+  @include media($large-screen){
+    height:25em;
+  }
+
   button {
     @include button(flat, $base-background-color);
     font-size: $base-font-size;
@@ -37,7 +41,7 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
 
   @include media($large-screen) {
     max-width: 50%;
-    padding: 4em;
+    padding: 3em;
     float: left;
   }
 
@@ -70,8 +74,9 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
     display: block;
     float: right;
     margin-bottom: -12em;
-    margin-top:-25em;
-    margin-right: 12em;
+    margin-top:1.2em;
+    margin-right: 1em;
+    margin-left:-13em;
     padding: $device-padding-vertical 0;
     width: $device-screen-width + (2 * $device-padding-horizontal);
     border-radius: 2em;
@@ -94,15 +99,17 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
       border-radius: .2em;
 
       @include media($desktop){
-        @include size($device-screen-width $device-screen-height);
+        width:32em;
+        height:28em;
       }
     }
 
-    @include media($medium-screen) {
-      margin-right:5em;
-    }
+    // @include media($medium-screen) {
+    //   margin-right:1em;
+    // }
   }
   @include media($desktop){
-    margin-top:-1em;
+    margin-top:-.4em;
+    margin-right:4em;
   }
 }
