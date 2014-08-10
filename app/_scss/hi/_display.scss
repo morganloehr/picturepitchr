@@ -20,9 +20,14 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
   height: 20em;
 
   button {
-    @include button(simple, $base-background-color);
+    @include button(flat, $base-background-color);
     font-size: $base-font-size;
     outline: none;
+    color:#fff;
+
+    &:hover {
+      color:#333;
+    }
   }
 }
 
@@ -65,7 +70,7 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
     display: block;
     float: right;
     margin-bottom: -12em;
-    margin-top:-1em;
+    margin-top:-25em;
     margin-right: 12em;
     padding: $device-padding-vertical 0;
     width: $device-screen-width + (2 * $device-padding-horizontal);
@@ -80,16 +85,24 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
       z-index: 99999;
 
     .screen {
-      @include size($device-screen-width $device-screen-height);
+      width:25em;
+      height:25em;
       background-image: url(/img/eagle.jpg);
       background-size: cover;
       // box-shadow: inset 0 1px 8px transparentize(black, .5);
       margin: auto;
       border-radius: .2em;
+
+      @include media($desktop){
+        @include size($device-screen-width $device-screen-height);
+      }
     }
 
     @include media($medium-screen) {
       margin-right:5em;
     }
+  }
+  @include media($desktop){
+    margin-top:-1em;
   }
 }
