@@ -32,10 +32,10 @@ body {color:$main-font;}
     color: $hero-color;
 
     button {
-      // @include button(simple, #fff);
+      @include button(flat);
       border:3px solid white;
       background:none;
-      font-size: 50px;
+      font-size: 30px;
       outline: none;
       text-shadow:none;
       padding:10px;
@@ -54,6 +54,10 @@ body {color:$main-font;}
      img {
      	width:180px;
      }
+
+       @include media($medium-screen){
+       font-size:50px;
+      }
     }
 
     .hero-copy {
