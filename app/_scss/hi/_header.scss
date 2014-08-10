@@ -1,0 +1,30 @@
+.cbp-af-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,1);
+    z-index: 10000;
+    overflow: hidden;
+    @include transition (all 0.3s ease-in-out);
+    opacity:0;
+    z-index:1000000;
+}
+ 
+.cbp-af-header .cbp-af-inner {
+    width: 90%;
+    max-width: 69em;
+    margin: 0 auto;
+    padding: .875em;
+    text-align: center;
+}
+ 
+.cbp-af-header.cbp-af-header-shrink {
+    height: 85px;
+    opacity:1;
+    @include transition (all 0.3s ease-in-out);
+
+}
+ 
+ 
+ 
