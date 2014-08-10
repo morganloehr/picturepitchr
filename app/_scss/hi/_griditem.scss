@@ -23,43 +23,46 @@
     
   .grid-item {
     @include transition (all 0.2s ease-in-out);
-    height: $grid-item-height;
-    background: $grid-item-background;
+    height: auto;
+    // background: $grid-item-background;
     width: 100%;
     overflow: hidden;
     float: left;
-    padding: 2em;
-    border-top: 0;
-    border-bottom: $grid-item-border-size solid $grid-items-background;
-    border-left: $grid-item-border-size /2 solid $grid-items-background;
-    border-right: $grid-item-border-size /2 solid $grid-items-background;
+    padding: .3em;
+    // border-top: 0;
+    // border-bottom: $grid-item-border-size solid $grid-items-background;
+    // border-left: $grid-item-border-size /2 solid $grid-items-background;
+    // border-right: $grid-item-border-size /2 solid $grid-items-background;
     text-align: center;
-    cursor: pointer;
-
     @include media($large-screen) {
       @include grid-item-columns($grid-item-columns);
     }
 
-    @for $i from 1 to 8 { // assign colors from $grid-item-colors list
-      &:nth-child(#{$i}) {
-        $background-from-list: nth($grid-item-colors, $i);
-        // background-color: $background-from-list;
-        // box-shadow: inset 0px 0px 1px 2px lighten(#333, 90);
-        &:hover {
-          background-color: darken($background-from-list, 10);
-          background-repeat: no-repeat;
-          background-position: top;
-          background-size: cover;
-        }
-      }
+     button {
+      @include button(flat, $base-background-color);
+      border:3px solid $main-font;
     }
+
+    // @for $i from 1 to 8 { // assign colors from $grid-item-colors list
+    //   &:nth-child(#{$i}) {
+    //     $background-from-list: nth($grid-item-colors, $i);
+    //     // background-color: $background-from-list;
+    //     // box-shadow: inset 0px 0px 1px 2px lighten(#333, 90);
+    //     &:hover {
+    //       background-color: darken($background-from-list, 10);
+    //       background-repeat: no-repeat;
+    //       background-position: top;
+    //       background-size: cover;
+    //     }
+    //   }
+    // }
   }
 
   .grid-item img {
       display: block;
-      height: 3em;
       margin: auto;
       margin-bottom: 1em;
+      width:100%;
     }
 
   .grid-item h1 {
@@ -95,6 +98,7 @@
     background-position: top;
     background-size: cover;
     position:relative;
+   
 
     &:after {
     content:'';
@@ -103,11 +107,11 @@
     height:100%;
     top:0; 
     left:0;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.0);
     @include transition (all 0.5s ease-in-out);
     }
      &:hover:after {
-      background:rgba(0,0,0,0.0);
+      background:rgba(0,0,0,0.2);
     }
   }
 }
