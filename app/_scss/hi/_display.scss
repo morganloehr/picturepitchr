@@ -6,8 +6,10 @@ $device-background: darken(gray, 40);
 $device-backside-background: darken($device-background, 10);
 $device-text-color: white;
 
-$device-background-top: #69986D; 
-$device-background-bottom: #332056;
+// $device-background-top: #7C7C7D; 
+// $device-background-bottom: #392C51;
+$device-background-top: #7C7C7D; 
+$device-background-bottom: #392C51;
 $gradient-angle: 15deg;
 $device-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
 $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg';
