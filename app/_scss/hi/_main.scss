@@ -39,11 +39,11 @@ section {
 	&.product {
 		background:#50556C;
 		color:#fff;
-		padding:6em 2em;
+		padding:6em;
 	}
 	&.grid {
 		@include media($medium-screen){
-			padding:0 8em;
+			padding:0 6em;
 		}
 		
 	}
