@@ -43,7 +43,7 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
 
   @include media($large-screen) {
     max-width: 50%;
-    padding: 3em;
+    padding: 3em 3em 3em 6em;
     float: left;
   }
 
@@ -76,11 +76,12 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
     display: block;
     float: right;
     margin-bottom: -12em;
-    margin-top:1.2em;
+    margin-top:-1em;
     margin-right: 1em;
     margin-left:-13em;
     padding: $device-padding-vertical 0;
-    width: $device-screen-width + (2 * $device-padding-horizontal);
+    // width: $device-screen-width + (2 * $device-padding-horizontal);
+    width:26em;
     border-radius: 2em;
     // background: $device-background;
     // box-shadow: 
@@ -111,7 +112,7 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
     // }
   }
   @include media($desktop){
-    margin-top:-.4em;
+    margin-top:-1em;
     margin-right:4em;
   }
 }

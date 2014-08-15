@@ -1,5 +1,6 @@
 .footer {
-  $footer-background: desaturate(darken(#D36861, 20), 30);
+  // $footer-background: desaturate(darken(#D36861, 20), 30);#B6544F
+  $footer-background:#B6544F;
   $footer-color: white;
   $footer-link-color: transparentize($footer-color, .6);
   $footer-disclaimer-color: transparentize($footer-color, .6);
