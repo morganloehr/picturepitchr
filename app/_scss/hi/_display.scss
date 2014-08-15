@@ -15,7 +15,8 @@ $device-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/sour
 $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg';
 
 .device-background {
-  @include background( linear-gradient($gradient-angle, $device-background-bottom, $device-background-top), no-repeat $device-background-top scroll);
+  // @include background( linear-gradient($gradient-angle, $device-background-bottom, $device-background-top), no-repeat $device-background-top scroll);
+  background:#6D5F88;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -43,7 +44,7 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
 
   @include media($large-screen) {
     max-width: 50%;
-    padding: 3em 3em 3em 6em;
+    padding: 5em 3em 3em 6em;
     float: left;
   }
 

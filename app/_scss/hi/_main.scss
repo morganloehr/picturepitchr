@@ -35,11 +35,15 @@ section {
 	&.display {
 		padding:0;
 		margin:10em 0;
+		border-top:1px solid #5E5D5D;
+		border-bottom:1px solid #5E5D5D;
 	}
 	&.product {
 		background:#50556C;
 		color:#fff;
 		padding:6em;
+		border-top:1px solid #333;
+		border-bottom:1px solid #333;
 	}
 	&.grid {
 		@include media($medium-screen){
