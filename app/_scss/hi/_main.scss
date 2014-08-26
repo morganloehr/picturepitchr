@@ -1,7 +1,7 @@
 body {
 	background:#FCFCFC;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:400;
+	font-weight:300;
 }
 
 nav {
@@ -12,7 +12,7 @@ nav {
 	h1 {
 		padding:0;
 		margin:0;
-		font-weight: 700;
+		font-weight: 300;
 		text-transform:uppercase;
 	}
 
@@ -35,28 +35,29 @@ section {
 	&.display {
 		padding:0;
 		margin:10em 0;
-		border-top:1px solid #5E5D5D;
-		border-bottom:1px solid #5E5D5D;
+		// border-top:1px solid #DADDE0;
+		// border-bottom:1px solid #DADDE0;
 	}
 	&.product {
-		background:#50556C;
-		color:#fff;
-		padding:6em;
-		border-top:1px solid #333;
-		border-bottom:1px solid #333;
+		
+		color:$main-font;
+		padding:0;
+		// border-top:1px solid #D3E1DC;
+		// border-bottom:1px solid #D3E1DC;
+		.background {
+			background:#F3FBF8;
+			padding:6em 4em;
+		}
 	}
 	&.grid {
-		@include media($medium-screen){
-			padding:0 6em;
-		}
-		
+		padding:4em 0 6em;
 	}
 
 }
 
 
 h2 {
-	margin-bottom:1em;
+	margin-bottom:3em;
 }
 
 .btn {

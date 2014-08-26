@@ -1,4 +1,4 @@
-h1, h2, h3, h4 {font-weight:700;}
+h1, h2, h3, h4 {font-weight:400;}
 
 body {color:$main-font;}
 
@@ -12,11 +12,19 @@ body {color:$main-font;}
 
   @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
 
-  background:url('/img/sunset.jpg');
+  background:url('/img/hero/sunset-main.jpg');
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
-  padding-bottom: 10em;
+  margin-top:85px;
+  @include transition (all 0.9s ease-in-out);
+
+  &.active {
+    background:url('/img/hero/sunset.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
   .hero-logo img {
     height: 3em;
@@ -26,7 +34,7 @@ body {color:$main-font;}
   .hero-inner {
     // @include outer-container;
     @include clearfix;
-    padding: 3em 4em 0;
+    padding:10em 0 0;
     margin: auto;
     text-align: center;
     color: $hero-color;
@@ -35,17 +43,18 @@ body {color:$main-font;}
       @include button(flat);
       border:3px solid white;
       background:none;
-      font-size: 30px;
+      font-size: 28px;
       outline: none;
       text-shadow:none;
-      padding:10px;
       text-transform: uppercase;
       color:white;
-      padding:.5em 1em;
+      padding:1em 2em;
       font-weight:700;
-      margin-top:5em;
+      display:inline-block !important;
       @include transition (all 0.2s ease-in-out);
       border-radius:0;
+      margin-bottom:6em;
+       @include transition (height 0.5s ease-in-out);
       &:hover{
         background:rgba(235,235,235,0.8);
         color:$main-font;
@@ -88,4 +97,9 @@ body {color:$main-font;}
       }
     }
   }
+}
+
+
+.image-fade {
+  @include transition (all 0.5s ease-in-out);
 }

@@ -345,8 +345,8 @@
   border: solid 3px #fff;
   color: $main-font;
   display: inline-block;
-  font-size: inherit;
-  font-weight: bold;
+  font-size: 1.2em;
+  font-weight: 700;
   padding: 15px 30px;
   text-decoration: none;
   background-clip: padding-box;
@@ -361,7 +361,7 @@
       $base-color-hover: grayscale($base-color-hover);
     }
 
-    background-color: rgba(235, 235, 235, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     cursor: pointer;
   }
 
@@ -375,5 +375,7 @@
 
     background-color: $base-color-active;
     cursor: pointer;
+    color: $main-font;
+    outline:none;
   }
 }
