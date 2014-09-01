@@ -245,7 +245,15 @@
             "callout.pulse": {
                 defaultDuration: 825,
                 calls: [ 
-                    [ { scaleX: 1.1, scaleY: 1.1 }, 0.50 ],
+                    [ { scaleX: 1.3, scaleY: 1.3 }, 0.50 ],
+                    [ { scaleX: 1, scaleY: 1 }, 0.50 ]
+                ]
+            },
+            /* Animate.css */
+            "callout.pulse2": {
+                defaultDuration: 300,
+                calls: [ 
+                    [ { scaleX: 2, scaleY: 2 }, 0.50 ],
                     [ { scaleX: 1, scaleY: 1 }, 0.50 ]
                 ]
             },

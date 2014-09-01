@@ -37,7 +37,11 @@
 
      button {
       @include button(flat, $base-background-color);
-      border:3px solid $main-font;
+      border:2px solid #57b445;
+      margin-bottom:.5em;
+      &:hover {
+        border:2px solid $blue;
+      }
     }
   }
 
@@ -49,6 +53,12 @@
       width: -webkit-calc(100% + 20px);
       width: calc(100% + 20px);
       max-width:none;
+      @include transition (all 0.5s ease-in-out);
+
+      &.img-hide {
+        position:absolute;
+        top:-100%;
+      }
     }
 
   .grid-item h1 {
@@ -163,6 +173,16 @@ figure {
 figure.effect-sarah {
   background: #383a47;
   position:relative;
+
+  &.swap{
+    background:#457CB4;
+  }
+    &.swap2{
+    background:#57b445;
+  }
+    &.swap3{
+    background:#b445a1;
+  }
 }
 
 figure.effect-sarah img {

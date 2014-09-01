@@ -41,7 +41,7 @@ body {color:$main-font;}
 
     button {
       @include button(flat);
-      border:3px solid white;
+      border:2px solid #fff;
       background:none;
       font-size: 28px;
       outline: none;
@@ -56,7 +56,7 @@ body {color:$main-font;}
       margin-bottom:6em;
        @include transition (height 0.5s ease-in-out);
       &:hover{
-        background:rgba(235,235,235,0.8);
+        background:rgba(235,235,235,0.5);
         color:$main-font;
       }
 

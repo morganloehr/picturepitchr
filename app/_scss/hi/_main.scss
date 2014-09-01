@@ -56,10 +56,10 @@ section {
 
 	}
 	&.grid {
-		padding:2em 0 0;
+		padding:3em 0 1em;
 		margin:8em 0 4em;
 		@include media($large-screen){
-			padding:2em 0 4em;
+			padding:4em 0 0;
 			margin:8em 0;
 		}
 	}
@@ -73,7 +73,7 @@ h2 {
 
 .btn {
   @include button(flat, #fff);
-  border:3px solid $dark-gray;
+  border:2px solid $green;
   background:none;
   outline: none;
   padding:10px;
@@ -83,7 +83,8 @@ h2 {
   @include transition (all 0.2s ease-in-out);
   border-radius:0;
   &:hover{
-    background:rgba(235,235,235,0.8);
+    background:rgba(255,255,255,1);
+    border:2px solid $blue;
   }
 }
 

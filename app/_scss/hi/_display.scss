@@ -32,10 +32,11 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
     @include button(flat, $base-background-color);
     font-size:1.2em;
     outline: none;
-    border: solid 3px $main-font; 
+    border: solid 2px $green; 
     display:none;
     &:hover {
       color:#333;
+      border:2px solid $blue;
     }
     @include media($large-screen){
       display:inline-block;

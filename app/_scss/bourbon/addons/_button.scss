@@ -342,7 +342,7 @@
   // background-color: none;
   background:none;
   border-radius: 0;
-  border: solid 3px #fff;
+  border: solid 2px $green;
   color: $main-font;
   display: inline-block;
   font-size: 1.2em;
@@ -361,7 +361,7 @@
       $base-color-hover: grayscale($base-color-hover);
     }
 
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
     cursor: pointer;
   }
 
