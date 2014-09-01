@@ -21,9 +21,11 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
   background-size: cover;
   width: 100%;
   height: 20em;
+  padding:1em 0;
 
   @include media($large-screen){
     height:25em;
+    padding:0;
   }
 
   button {
@@ -31,8 +33,12 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
     font-size:1.2em;
     outline: none;
     border: solid 3px $main-font; 
+    display:none;
     &:hover {
       color:#333;
+    }
+    @include media($large-screen){
+      display:inline-block;
     }
   }
 }
@@ -44,8 +50,12 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
 
   @include media($large-screen) {
     max-width: 50%;
-    padding: 6em 2em 3em 4em;
+    padding: 4em 2em 3em 4em;
     float: left;
+  }
+
+  @include media($desktop) {
+    padding: 6em 2em 3em 4em;
   }
 
   h4 {
@@ -79,23 +89,14 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
     display: block;
     float: right;
     margin-bottom: -12em;
-    margin-top:-1em;
+    margin-top:1em;
     margin-right: 1em;
     margin-left:-13em;
     padding: $device-padding-vertical 0;
-    // width: $device-screen-width + (2 * $device-padding-horizontal);
-    width:32em;
+    width:27em;
     border-radius: 2em;
-    // background: $device-background;
-    // box-shadow: 
-    //   1px 0px lighten($device-backside-background, 20), 
-    //   4px 0px lighten($device-backside-background, 2),
-    //   7px 0px $device-backside-background,
-    //   10px 0px $device-backside-background,
-    //   13px 0px $device-backside-background;
     z-index: 99999;
     @include transition (all 0.5s ease-in-out);
-
 
     .screen {
       width:25em;
@@ -112,16 +113,15 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
       }
     }
 
-    // @include media($medium-screen) {
-    //   margin-right:1em;
-    // }
+    @include media($desktop){
+      width:32em;
+      margin-top:-1em;
+      margin-top:-1em;
+       margin-right:4em;
+    }
 
     img {
       border:10px solid #fff;
     }
-  }
-  @include media($desktop){
-    margin-top:-1em;
-    margin-right:4em;
   }
 }

@@ -1,6 +1,6 @@
 .bullets {
-  $icon-bullet-size: 4em;
-
+  $icon-bullet-size: 5em;
+  
   overflow: auto;
   // margin-bottom: $base-line-height;
 
@@ -30,27 +30,36 @@
   .bullet-icon {
     background: $base-accent-color;
     padding: $icon-bullet-size /4;
-    border-radius: 50%;
+    // border-radius: 50%;
     width: $icon-bullet-size;
     height: $icon-bullet-size;
     margin:0 auto;
   }
 
   .bullet-icon-1 {
-    background: $base-accent-color;
+    background: #567DA4;
   }
 
   .bullet-icon-2 {
-    background: adjust-hue($base-accent-color, -50);
+    background: adjust-hue(#567DA4, -50);
   }
 
   .bullet-icon-3 {
-    background: adjust-hue($base-accent-color, -140);
+    background: adjust-hue(#567DA4, +140);
+    padding: 1.3em .9em 1em;
   }
 
   .bullet-content {
     // margin-left: $icon-bullet-size *1.4;
     // margin-bottom: 2em;
+    margin-top:1.5em;
+  }
+
+  .bullet {
+    margin-bottom:5em;
+    @include media($large-screen){
+      margin-bottom:0;
+    }
   }
 
   h2 {
@@ -63,10 +72,5 @@
 
   p {
     font-size:1.1em;
-  }
-
-  .bullet-content {
-    margin-top:1.5em;
-    width:95%;
   }
 }

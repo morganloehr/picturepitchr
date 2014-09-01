@@ -27,6 +27,19 @@ $('#swap').click(function(){
 }); 
 
 
+$(".imgTog").click(function() {
+    $('.swap').find('img').toggle();
+});
+
+$(".imgTog3").click(function() {
+    $('.swap3').find('img').toggle();
+});
+
+$(".imgTog2").click(function() {
+    $('.swap2').find('img').toggle();
+});
+
+
 // $(function){
 //         $('#switch').click(function(){
 //             if($(this).hasClass('active'))

@@ -24,38 +24,21 @@
   .grid-item {
     @include transition (all 0.2s ease-in-out);
     height: auto;
-    // background: $grid-item-background;
     width: 100%;
     overflow: hidden;
     float: left;
-    // padding: .3em;
-    // border-top: 0;
-    // border-bottom: $grid-item-border-size solid $grid-items-background;
-    // border-left: $grid-item-border-size /2 solid $grid-items-background;
-    // border-right: $grid-item-border-size /2 solid $grid-items-background;
     text-align: center;
+    margin-bottom:6em;
+
     @include media($large-screen) {
       @include grid-item-columns($grid-item-columns);
+      margin-bottom:0;
     }
 
      button {
       @include button(flat, $base-background-color);
       border:3px solid $main-font;
     }
-
-    // @for $i from 1 to 8 { // assign colors from $grid-item-colors list
-    //   &:nth-child(#{$i}) {
-    //     $background-from-list: nth($grid-item-colors, $i);
-    //     // background-color: $background-from-list;
-    //     // box-shadow: inset 0px 0px 1px 2px lighten(#333, 90);
-    //     &:hover {
-    //       background-color: darken($background-from-list, 10);
-    //       background-repeat: no-repeat;
-    //       background-position: top;
-    //       background-size: cover;
-    //     }
-    //   }
-    // }
   }
 
   .grid-item img {
@@ -120,8 +103,13 @@
 }
 
 
-figure {
-  margin: 0 0 3em;
+figure { 
+  margin:0 0 1em;
+
+  @include media($medium-screen){
+    margin: 0 0 3em;
+  }
+
 }
 
 

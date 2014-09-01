@@ -26,6 +26,10 @@ section {
 	padding:0 2em;
 	margin:8em 0;
 
+	h2 {
+		margin-bottom:5em;
+	}
+
 	&.main {
 		margin:8em auto;
 		padding:2em;
@@ -35,22 +39,29 @@ section {
 	&.display {
 		padding:0;
 		margin:10em 0;
-		// border-top:1px solid #DADDE0;
-		// border-bottom:1px solid #DADDE0;
 	}
+
 	&.product {
-		
+		margin:4em 0;
 		color:$main-font;
 		padding:0;
-		// border-top:1px solid #D3E1DC;
-		// border-bottom:1px solid #D3E1DC;
 		.background {
-			background:#F3FBF8;
-			padding:6em 4em;
+			background:#F1F5F9;
+			padding:8em 4em;
 		}
+		
+		@include media($large-screen){
+			margin:8em 0;
+		}
+
 	}
 	&.grid {
-		padding:4em 0 6em;
+		padding:2em 0 0;
+		margin:8em 0 4em;
+		@include media($large-screen){
+			padding:2em 0 4em;
+			margin:8em 0;
+		}
 	}
 
 }
