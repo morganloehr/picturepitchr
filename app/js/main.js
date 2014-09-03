@@ -19,14 +19,13 @@ $('#switch').velocity("callout.pulse");
      }, 2500);
 
 
-
-$('#swap').click(function(){
-	$('.device img').velocity("transition.slideDownBigIn");
-    $('.device img').attr("src", "/img/picnic-2.jpg");
+$(".imgTog4").click(function() {
+    $('.device img').toggleClass("img-hide");
+    $('.device img').velocity('transition.slideDownIn');
     $(this).text(function(i, text){
           return text === "UnPicturfy" ? "Picturfy" : "UnPicturfy";
       })
-}); 
+});
 
 
 $(".imgTog").click(function() {

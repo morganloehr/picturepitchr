@@ -1,4 +1,4 @@
-// Generated on 2014-08-03 using generator-jekyllrb 1.2.1
+// Generated on 2014-09-02 using generator-jekyllrb 1.2.1
 'use strict';
 
 // Directory reference:
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
     watch: {
       sass: {
         files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
-        tasks: ['sass:server', 'autoprefixer:server']
+        tasks: ['sass:server']
       },
       autoprefixer: {
         files: ['<%= yeoman.app %>/css/**/*.css'],
@@ -42,7 +42,7 @@ module.exports = function (grunt) {
         },
         files: [
           '.jekyll/**/*.html',
-          '.tmp/css/**/*.css',
+          '{.tmp,<%= yeoman.app %>}/css/**/*.css',
           '{.tmp,<%= yeoman.app %>}/<%= js %>/**/*.js',
           '<%= yeoman.app %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
         ]
@@ -114,7 +114,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '<%= yeoman.app %>/_scss',
           src: '**/*.{scss,sass}',
-          dest: 'css',
+          dest: '.tmp/css',
           ext: '.css'
         }]
       },
@@ -129,27 +129,6 @@ module.exports = function (grunt) {
           src: '**/*.{scss,sass}',
           dest: '.tmp/css',
           ext: '.css'
-        }]
-      }
-    },
-    autoprefixer: {
-      options: {
-        browsers: ['last 2 versions']
-      },
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.dist %>/css',
-          src: '**/*.css',
-          dest: '<%= yeoman.dist %>/css'
-        }]
-      },
-      server: {
-        files: [{
-          expand: true,
-          cwd: '.tmp/css',
-          src: '**/*.css',
-          dest: '.tmp/css'
         }]
       }
     },
@@ -261,16 +240,6 @@ module.exports = function (grunt) {
           ],
           dest: '<%= yeoman.dist %>'
         }]
-      },
-      // Copy CSS into .tmp directory for Autoprefixer processing
-      stageCss: {
-        files: [{
-          expand: true,
-          dot: true,
-          cwd: '<%= yeoman.app %>/css',
-          src: '**/*.css',
-          dest: '.tmp/css'
-        }]
       }
     },
     filerev: {
@@ -323,7 +292,6 @@ module.exports = function (grunt) {
     concurrent: {
       server: [
         'sass:server',
-        'copy:stageCss',
         'jekyll:server'
       ],
       dist: [
@@ -342,7 +310,6 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'concurrent:server',
-      'autoprefixer:server',
       'connect:livereload',
       'watch'
     ]);
@@ -375,7 +342,6 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'useminPrepare',
     'concat',
-    'autoprefixer:dist',
     'cssmin',
     'uglify',
     'imagemin',

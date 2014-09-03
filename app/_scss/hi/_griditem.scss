@@ -54,11 +54,6 @@
       width: calc(100% + 20px);
       max-width:none;
       @include transition (all 0.5s ease-in-out);
-
-      &.img-hide {
-        position:absolute;
-        top:-100%;
-      }
     }
 
   .grid-item h1 {
