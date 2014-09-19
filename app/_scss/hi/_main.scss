@@ -47,11 +47,19 @@ section {
 		padding:0;
 		.background {
 			background:#F1F5F9;
-			padding:8em 4em;
+			padding:8em 2em;
+			@include media($medium-screen){
+				padding:8em 4em;
+			}
 		}
 		
 		@include media($large-screen){
 			margin:8em 0;
+		}
+
+		sup {
+			top:0;
+			font-size: 160%;
 		}
 
 	}
@@ -76,8 +84,7 @@ h2 {
   border:2px solid $green;
   background:none;
   outline: none;
-  padding:10px;
-  padding:2em 3.5em 2.5em;
+  padding:1em;
   font-weight:700;
   margin-top:1em;
   @include transition (all 0.2s ease-in-out);
@@ -85,6 +92,10 @@ h2 {
   &:hover{
     background:rgba(255,255,255,1);
     border:2px solid $blue;
+  }
+
+  @include media($medium-screen){
+  	  padding:2em 3.5em 2.5em;
   }
 }
 
@@ -98,3 +109,14 @@ h2 {
 	position:absolute;
 	top:-99999px;
  }
+
+#top{
+	margin-top:-90px;
+	height:90px;
+}
+
+sup {
+	top:-0.2em;
+	font-size:110%;
+	color:$blue;
+}

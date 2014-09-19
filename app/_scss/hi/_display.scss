@@ -125,4 +125,9 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
       border:10px solid #fff;
     }
   }
+  
+  .img-hide {
+    right: -99999px;
+    top:0;
+  }
 }
