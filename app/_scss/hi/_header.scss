@@ -12,6 +12,7 @@
 
     img {
         width:125px;
+        max-height:100%;
     }
 }
  
@@ -21,6 +22,13 @@
     margin: 0 auto;
     padding: 1.2em;
     text-align: center;
+
+    a {
+        @include transition (all 0.5s ease-in-out);
+        &:hover {
+            opacity:.8;
+        }
+    }
 }
  
 .cbp-af-header.cbp-af-header-shrink {

@@ -39,9 +39,10 @@
 
   li {
     text-align: center;
-
+    padding:.75em 0;
     @include media($medium-screen) {
       text-align: left;
+      padding:0;
     }
   }
 

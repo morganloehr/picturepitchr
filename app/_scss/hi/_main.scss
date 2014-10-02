@@ -27,13 +27,27 @@ section {
 	margin:8em 0;
 
 	h2 {
-		margin-bottom:5em;
+		margin:0 auto 5em;
+		font-size:1.75em;
+		width:90%;
+		@include media($medium-screen){
+			font-size:2em;
+		}
 	}
 
 	&.main {
 		margin:8em auto;
-		padding:2em;
-		width:80%;
+		padding:2em 1em;
+		@include media($medium-screen){
+			padding:2em;
+		}
+
+		h1 {
+			font-size:1.75em;
+			@include media($medium-screen){
+				font-size:2.25em;
+			}
+		}
 	}
 
 	&.display {
@@ -48,9 +62,9 @@ section {
 		.background {
 			background:#F1F5F9;
 			padding:8em 2em;
-			@include media($medium-screen){
-				padding:8em 4em;
-			}
+			// @include media($medium-screen){
+			// 	padding:8em 4em;
+			// }
 		}
 		
 		@include media($large-screen){

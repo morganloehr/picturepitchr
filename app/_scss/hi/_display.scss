@@ -20,7 +20,6 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 20em;
   padding:1em 0;
 
   @include media($large-screen){
