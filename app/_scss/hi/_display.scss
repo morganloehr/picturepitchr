@@ -6,9 +6,9 @@ $device-background: darken(gray, 40);
 $device-backside-background: darken($device-background, 10);
 $device-text-color: $main-font;
 
-// $device-background-top: #7C7C7D; 
+// $device-background-top: #7C7C7D;
 // $device-background-bottom: #392C51;
-$device-background-top: #7C7C7D; 
+$device-background-top: #7C7C7D;
 $device-background-bottom: #392C51;
 $gradient-angle: 15deg;
 $device-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
@@ -31,7 +31,7 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
     @include button(flat, $base-background-color);
     font-size:1.2em;
     outline: none;
-    border: solid 2px $green; 
+    border: solid 2px $green;
     display:none;
     &:hover {
       color:#333;
@@ -79,12 +79,12 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
 
   @include media($large-screen) {
     @include transform(
-      perspective(1000px) 
-      translateX(0px) 
-      translateY(-100px) 
-      translateZ(50px) 
-      rotateX(0deg) 
-      rotateY(-15deg) 
+      perspective(1000px)
+      translateX(0px)
+      translateY(-100px)
+      translateZ(50px)
+      rotateX(0deg)
+      rotateY(-15deg)
       rotateZ(-0deg));
     display: block;
     float: right;
@@ -123,10 +123,5 @@ $device-screen-image: 'https://raw.githubusercontent.com/thoughtbot/refills/mast
     img {
       border:10px solid #fff;
     }
-  }
-  
-  .img-hide {
-    right: -99999px;
-    top:0;
   }
 }
