@@ -15,8 +15,9 @@
 
     img {
       height: 3em;
+      max-height:100%;
     }
-  } 
+  }
 
   .footer-links {
     @include clearfix;
@@ -54,7 +55,7 @@
     &:hover {
       color: lighten($footer-color, 30);
     }
-  }  
+  }
 
   hr {
     border: 1px solid transparentize($footer-disclaimer-color, .3);

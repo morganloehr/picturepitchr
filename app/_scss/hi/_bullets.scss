@@ -1,6 +1,6 @@
 .bullets {
   $icon-bullet-size: 7em;
-  
+
   overflow: auto;
   // margin-bottom: $base-line-height;
 
@@ -8,10 +8,10 @@
   .two-col-bullet {
     @include media($large-screen) {
       @include span-columns(6);
-      @include omega(2n);  
-    } 
+      @include omega(2n);
+    }
   }
-  
+
   .three-col-bullet {
     @include media($large-screen) {
       @include span-columns(4);
@@ -34,6 +34,10 @@
     width: $icon-bullet-size;
     height: $icon-bullet-size;
     margin:0 auto;
+
+    img {
+      max-height:100%;
+    }
   }
 
   .bullet-icon-1 {

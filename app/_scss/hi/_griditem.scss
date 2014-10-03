@@ -4,13 +4,13 @@
 
 .grid-items {
   $grid-items-background: $base-background-color;
-  $grid-item-background: desaturate($base-accent-color, 30); 
-  $grid-item-colors: 
-    desaturate($base-accent-color, 30), 
-    #3581A5, 
+  $grid-item-background: desaturate($base-accent-color, 30);
+  $grid-item-colors:
+    desaturate($base-accent-color, 30),
+    #3581A5,
     #5FBEBE,
     #98C79A,
-    #A7A891, 
+    #A7A891,
     #BDCC97,
     #979EA0;
   $grid-item-border-size: 9px;
@@ -20,7 +20,7 @@
   $grid-item-height: 18em;
 
   @include clearfix;
-    
+
   .grid-item {
     @include transition (all 0.2s ease-in-out);
     height: auto;
@@ -78,7 +78,7 @@
     p {
       @include media($medium-screen) {
         max-width: 60%;
-      }  
+      }
     }
   }
 
@@ -89,14 +89,14 @@
     background-position: top;
     background-size: cover;
     position:relative;
-   
+
 
     &:after {
     content:'';
     position:absolute;
-    width:100%; 
+    width:100%;
     height:100%;
-    top:0; 
+    top:0;
     left:0;
     background:rgba(0,0,0,0.0);
     @include transition (all 0.5s ease-in-out);
@@ -108,7 +108,7 @@
 }
 
 
-figure { 
+figure {
   margin:0 0 1em;
 
   @include media($medium-screen){
@@ -152,7 +152,7 @@ figure {
 }
 
 .grid figure h2 {
-  word-spacing: -0.15em; 
+  word-spacing: -0.15em;
   font-weight: 300;
 }
 
